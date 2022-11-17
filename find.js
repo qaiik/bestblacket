@@ -74,7 +74,7 @@ const blacket = unsafeWindow["blacket"]
 class gbutils {
   constructor() {
     this.pack = localStorage.pack
-    setInterval(this.open, 400)
+      setInterval(this.open, 400)
   }
 
   open() {
